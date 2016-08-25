@@ -1,0 +1,6 @@
+.idea
+node_modules
+dist
+src/assets/css/main.css
+src/assets/fonts
+src/assets/js/main.js

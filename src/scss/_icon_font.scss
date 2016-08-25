@@ -1,0 +1,50 @@
+/* ------------------------------------------
+ * Font icons generator
+ *------------------------------------------- */
+@font-face {
+  font-family: "custom_icons";
+  src: url('/assets/fonts/custom_icons.eot');
+  src: url('/assets/fonts/custom_icons.eot?#iefix') format('eot'),
+  url('/assets/fonts/custom_icons.woff') format('woff'),
+  url('/assets/fonts/custom_icons.ttf') format('truetype'),
+  url('/assets/fonts/custom_icons.svg#custom_icons') format('svg');
+}
+
+%icon {
+  font-family: "custom_icons";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  // speak: none; // only necessary if not using the private unicode range (firstGlyph option)
+  text-decoration: none;
+  text-transform: none;
+}
+
+@function icon-char($filename) {
+  $char: "";
+
+@if $filename == facebook {
+$char: "\E001";
+}
+@if $filename == icon_twitter {
+$char: "\E002";
+}
+
+@return $char;
+}
+
+@mixin icon($filename, $insert: before) {
+  &:#{$insert} {
+    @extend %icon;
+    content: icon-char($filename);
+  }
+}
+
+.i_facebook {
+  @include icon(facebook);
+}
+.i_icon_twitter {
+  @include icon(icon_twitter);
+}
