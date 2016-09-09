@@ -3,4 +3,4 @@ node_modules
 dist
 src/assets/css/main.css
 src/assets/fonts
-src/assets/js/main.js
+src/assets/js/bundle.js
