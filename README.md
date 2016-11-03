@@ -14,13 +14,13 @@
  $ npm start
  ```
  
- ### Build
+### Build
  
 ```
  $ npm run build
  ```
  
- ### Image Optim
+### Image Optim
  
  ```
   $ npm run images
