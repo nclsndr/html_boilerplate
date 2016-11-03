@@ -9,16 +9,19 @@
   - Image optim
   
 ### Dev mode
+
  ```
  $ npm start
  ```
  
  ### Build
+ 
 ```
  $ npm run build
  ```
  
  ### Image Optim
+ 
  ```
   $ npm run images
   ```
