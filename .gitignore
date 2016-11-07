@@ -1,6 +1,17 @@
+# IDE
 .idea
+
+# Node
 node_modules
+
+# Project
 dist
 src/assets/css/main.css
 src/assets/fonts
 src/assets/js/bundle.js
+
+# MacOS
+.DS_Store
+*.DS_Store
+*/.DS_Store
+**/.DS_Store

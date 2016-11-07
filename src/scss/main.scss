@@ -1,6 +1,9 @@
 /* ------------------------------------------
  * Site style to export in main.css
  *------------------------------------------- */
+@import "helpers/reset";
 @import "fonts";
 @import "icon_font";
+@import "helpers/grid";
+
 @import "global";

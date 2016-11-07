@@ -45,3 +45,10 @@ $media-queries: (
     l-desktop : (i : 1281px, o : 1920px),
     xl-desktop : (i : 1921, o : 4000px)
 );
+
+/* ------------------------------------------
+ * Grid settings
+ *------------------------------------------- */
+$columnsCount: 12;
+$wrapperWidth: 1200px;
+$gutterWidth: 20px;
