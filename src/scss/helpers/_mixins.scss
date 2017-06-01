@@ -93,27 +93,27 @@
 }
 // Mobile First implementation
 @mixin phone {
-  @media screen and (min-width: #{m-query(phone, o)}) {
+  @media screen and (min-width: #{m-query(phone, i)}) {
     @content
   }
 }
 @mixin tablet {
-  @media screen and (min-width: #{m-query(tablet, o)}) {
+  @media screen and (min-width: #{m-query(tablet, i)}) {
     @content
   }
 }
 @mixin desktop {
-  @media screen and (min-width: #{m-query(s-desktop, o)}) {
+  @media screen and (min-width: #{m-query(s-desktop, i)}) {
     @content
   }
 }
 @mixin l-desktop {
-  @media screen and (min-width: #{m-query(xl-desktop, o)}) {
+  @media screen and (min-width: #{m-query(l-desktop, i)}) {
     @content
   }
 }
 @mixin all-desktop {
-  @media screen and (min-width: #{m-query(xl-desktop, o)}) {
+  @media screen and (min-width: #{m-query(s-desktop, i)}) {
     @content
   }
 }
