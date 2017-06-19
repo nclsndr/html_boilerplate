@@ -4,7 +4,7 @@
 @import "vars";
 
 @function font-size($px) {
-  $res: $px/$defaultHTMLFontSize;
+  $res: $px/$defaultHTMLFontSizeInt;
   @return $res + rem;
 }
 
